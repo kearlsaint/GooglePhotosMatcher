@@ -1,5 +1,6 @@
 # Google Photos Matcher (v 1.2)
 
+Note: This is a fork with a fix for _file is in use_. Run window.py and not the executable (install PyAutoGUI first);
 Simple executable to match metadata from JSONs to original images/videos.
 
 Same work than [MetadataFixer](https://metadatafixer.com/pricing) but its free!
@@ -10,11 +11,15 @@ When you download the images from google photos, they lose some metadata such as
 
 This algorithm is able to match this information in the image/video from the downloaded JSONs
 
+## Prerequisite
+
+1. pip install PyAutoGUI
+
 ## Usage
 
 1. Download your _Google Photos_ media from [Takeout](https://takeout.google.com/)
 
-2. Download and execute GPMatcher.exe
+2. Download .zip and run window.py
 
 3. [Optional] Type custom suffix used for edited photos (explained in the program)
 
@@ -22,7 +27,7 @@ This algorithm is able to match this information in the image/video from the dow
 
 5. Click on _Match_ button
 
-6. Matched images/videos will be on directory _Matched_ inside the same path
+6. Matched images/videos will be on directory _MatchedMedia_ inside the same path
 
 ## FAQs
 
@@ -59,8 +64,6 @@ Sometimes, the algorithm does not recognize the names of the images due to the p
 
 ## Donations💰
 
-* BTC -> 14BJjSVqUcLKFkPHBHwNenm2j5qWcwqUyb
-* ETH -> 0x910c055988973b03b9c517bab62198e9ee550f65
-* USDT (TRC20) -> TRAp5UiRoEMvQVzd7d6wDHZg2Uwu6eVvaX
-* USDT (BEP20) -> 0x910c055988973b03b9c517bab62198e9ee550f65
-* LTC -> LcF2dm2gRqHMHLP4snQFb1zyaUwDfLb443
+* ETH -> 0x8a6C16F2E2a9A7EcB36fE569c0017Db277ea8b95
+* TRX (TRC20) -> TDtdj1x8weepD9YEuV5YtY9CEc386MYSxh
+* BNB (BEP20) -> 0x8a6C16F2E2a9A7EcB36fE569c0017Db277ea8b95
