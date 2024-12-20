@@ -58,6 +58,7 @@ def mainProcess(browserPath, window, editedW):
                 try:
                     im = Image.open(filepath)
                     rgb_im = im.convert('RGB')
+                    im.close()
                     os.replace(filepath, filepath.rsplit('.', 1)[0] + ".jpg")
                     filepath = filepath.rsplit('.', 1)[0] + ".jpg"
                     rgb_im.save(filepath)
