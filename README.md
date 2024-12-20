@@ -1,4 +1,4 @@
-# Google Photos Matcher (v 1.2)
+# Google Photos Matcher (v 1.3)
 
 Note: This is a fork with a fix for _file is in use_. Run window.py and not the executable (install PyAutoGUI first);
 Simple executable to match metadata from JSONs to original images/videos.
